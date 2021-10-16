@@ -17,6 +17,19 @@ touch $projectName/$projectName/README.md
 touch $projectName/$projectName/data/raw/.gitkeep
 touch $projectName/$projectName/data/processed/.gitkeep
 
+
 echo "Initialize git repository"
 cd $projectName/$projectName
 git init
+
+# Writing README.md file
+cat << EOF >> README.md
+# $projectName
+
+## Project description
+
+## Instalation
+
+## License
+
+EOF
