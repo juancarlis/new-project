@@ -31,5 +31,16 @@ cat << EOF >> README.md
 ## Instalation
 
 ## License
+EOF
 
+# Writing a basic python main
+cat << EOF >> main.py
+import pandas as pd
+
+
+def main():
+  pass
+
+if __name__ == '__main__':
+  main()
 EOF
